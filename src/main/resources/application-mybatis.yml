@@ -1,0 +1,6 @@
+#mybatis:
+#   mapper-locations: classpath:mapper/UserMapper.xml
+
+
+mybatis:
+  type-aliases-package: com.future.desk.model

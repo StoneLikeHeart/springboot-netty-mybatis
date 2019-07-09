@@ -1,0 +1,7 @@
+#配置数据源  Spring Boot 会自动加载 spring.datasource.* 相关配置，数据源就会自动注入到 sqlSessionFactory 中，sqlSessionFactory 会自动注入到 Mapper 中
+spring:
+  datasource:
+     url: jdbc:mysql://huangziwei01.vicp.io:58312/mysql?serverTimezone=UTC
+     username: root
+     password: pig1234
+     driver-class-name: com.mysql.cj.jdbc.Driver

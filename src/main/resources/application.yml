@@ -1,0 +1,19 @@
+
+server:
+  port: 8091
+  context:
+    path:
+
+spring:
+  profiles:
+    include: data, mybatis, dev
+  mvc:
+    static-path-pattern: /static/**
+    thymeleaf:
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML5
+      encoding: utf-8
+      servlet:
+        content-type: text/html
+      cache: false
